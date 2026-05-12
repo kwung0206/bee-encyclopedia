@@ -69,6 +69,10 @@ AWS Academy Learner Lab에서 발급받은 임시 인증 정보를 GitHub Reposi
 | `AWS_SECRET_ACCESS_KEY` | AWS Secret Access Key |
 | `AWS_SESSION_TOKEN` | AWS Academy 임시 Session Token |
 
+### GitHub Actions CI/CD 시연 영상
+
+[GitHub Actions를 활용하여 CI/CD 환경 구축 시연](https://youtu.be/zkBl6w5OhM8)
+
 ## AWS S3 배포 정보
 
 | 항목 | 내용 |
@@ -125,9 +129,7 @@ https://main.dvt2z8ih20bwo.amplifyapp.com
 
 ### AWS Amplify 서비스 활용 영상
 
-```text
-YouTube 영상 링크: 제출 전 업로드 후 링크 추가
-```
+[AWS Amplify 서비스 활용하여 호스팅하기 시연](https://youtu.be/9hrPaEBYWsY)
 
 ## 로컬 실행 방법
 
