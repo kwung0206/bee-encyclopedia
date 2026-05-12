@@ -87,6 +87,48 @@ http://kwung0206-bee-encyclopedia.s3-website-us-east-1.amazonaws.com
 
 > AWS Academy Learner Lab 세션은 약 4시간 동안 유효하므로, 세션 종료 후에는 AWS URL 접속 또는 배포가 제한될 수 있습니다.
 
+## AWS Amplify 호스팅
+
+과제 2에서는 과제 1에서 사용한 GitHub Repository를 AWS Amplify에 연결하여 React 웹 애플리케이션을 호스팅했습니다.
+
+### Amplify 배포 흐름
+
+```text
+AWS Amplify 앱 생성
+        ↓
+GitHub 계정 연결
+        ↓
+bee-encyclopedia Repository 선택
+        ↓
+main 브랜치 연결
+        ↓
+Amplify 자동 빌드 및 배포
+        ↓
+Amplify 제공 URL로 웹사이트 접속
+```
+
+### Amplify 배포 정보
+
+| 항목 | 내용 |
+| --- | --- |
+| 서비스 | AWS Amplify Hosting |
+| 연결 Repository | `kwung0206/bee-encyclopedia` |
+| 연결 브랜치 | `main` |
+| 빌드 명령어 | `npm run build` |
+| 배포 폴더 | `dist` |
+
+### Amplify 배포 URL
+
+```text
+https://main.dvt2z8ih20bwo.amplifyapp.com
+```
+
+### AWS Amplify 서비스 활용 영상
+
+```text
+YouTube 영상 링크: 제출 전 업로드 후 링크 추가
+```
+
 ## 로컬 실행 방법
 
 ```bash
